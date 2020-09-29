@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    background-color: #9cebd5;
+}
+
+.titreIntro {
+    color: white;
+    font-family: "Georgia";
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.grilleEmoji {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grilleEmoji div {
+    display: flex;
+    font-size: 100px;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperFormulaire {
+    width: 100%;
+    height:100%;
+    background-color: #E0AB94;
+}
+
+.formulaire {
+    width: 340px;
+    padding: 20px;
+    background-color: #9cebd5;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputTxt {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    padding: 0 0 0 5px
+}
+
+.bouton {
+    width: 100px;
+    height: 40px;
+    background-color: #EFEFEF;
+    line-height: 40px;
+}
+
+.entrees {
+    height: 40px;
+    background-color: #fff;
+    margin: 5px 0;
+    width: 260px;
+    line-height: 40px;
+    text-align: left;
+    padding: 0 0 0 5px;
+}
+
+.crochet {
+    background-color: #EFEFEF;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+}
+
+.crayon {
+    width: 10vw;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+}
+
+.imgCrayon {
+    width: 100%;
+}
+
+.ajoutElement {
+    display: flex;
+    width: 300px;
+}
