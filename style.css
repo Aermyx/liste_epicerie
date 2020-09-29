@@ -110,3 +110,7 @@ body {
     display: flex;
     width: 300px;
 }
+
+.textDecoration {
+    text-decoration: line-through;
+}
