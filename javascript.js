@@ -49,6 +49,8 @@ const entrees = document.querySelector(".entrees");
 const crochet = document.querySelector(".crochet");
 const ajout = document.querySelector(".ajout");
 
+
+
 bouton.addEventListener("click", () => {
     const ajoutElement = document.createElement("div");
     ajoutElement.classList.add("ajoutElement");
@@ -60,19 +62,23 @@ bouton.addEventListener("click", () => {
     ajout.appendChild(ajoutElement);
 
     inputTxt.value = "";
+
+    const item = new Item();
 });
 
 class Item {
     constructor() {
-        barre();
-        supprimer();
+        this.barre();
+        this.supprimer();
     }
 
     barre() {
-
+        entrees.addEventListener("click", () => {
+            entrees.classList.toggle("textDecoration");
+        })
     }
 
     supprimer() {
-        
+
     }
 }
